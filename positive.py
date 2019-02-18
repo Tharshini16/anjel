@@ -1,7 +1,7 @@
-num =float(input(" "))
-if(num>0):
-   print("Positive number")
-elif( num == 0):
+n =float(input(" "))
+if(n>0):
+   print("Positive")
+elif(n==0):
    print("Zero")
 else:
-   print("Negative number")
+   print("Negative")
