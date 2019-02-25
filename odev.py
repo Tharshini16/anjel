@@ -1,5 +1,6 @@
-a=2
-print("The number is odd or even")
-b=7
-print("The number is odd or even")
-print a,b
+num = int(input("Enter a number:"))
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd"format(num))
+
